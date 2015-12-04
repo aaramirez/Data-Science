@@ -7,7 +7,7 @@ library(wordcloud)
 library(fastcluster)
 
 
-fb_oauth<-"CAACEdEose0cBAL1pzq5LESbKXrffZBZBwWgmQpbKQCQCpJcRp3aaj55bc37IGpTJIuYLE6urdRZAZB2nrMzpj8RWp5kBshkXoBYG2302wT7D5gNM8VnKjdd8pxPpDHby2r1By6nXcVlGKAaXd9YarP7uBIVahjQmZC89iYP6y1Eldd0V3MoRyEkeGPJNy5Is9dyfTvIazutP6041gjzmAJ9dPlLyn8OkZD"
+fb_oauth<-"CAACEdEose0cBAL1pzdsfafareqwtq5LEdfgsrtSbKXrffZrtrasqrtqtrBZBwWgmQpbKQCQCpJcRp3aaj55bc37IGpTJIuYLE6urdRZAZB2nrMzpj8RWp5kBshkXoBYG2302wT7D5gNM8VnKjdd8pxPpDHby2r1By6nXcVlGKAaXd9YarP7uBIVahjQmZC89iYP6y1Eldd0V3MoRyEkeGPJNy5Is9dyfTvIazutP6041gjzmAJ9dPlLyn8OkZD"
 feeds <- getNewsfeed(fb_oauth, n = 1000)
 write.csv(feeds, file = "21014872_22022441_23194702_LeonardoSantella_posts.csv")
 #------Fin Autenticacion y descargar de 1000 news feeds--------

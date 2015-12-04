@@ -10,7 +10,7 @@ en un data frame dichos comentarios (CI1 CI2 facebook posts.csv)
   R: En principio debemos identificarnos a traves de un token para poder hacer peticiones al API de Facebook. Las lineas de codigo correspodientes a este proceso se encuentran comentadas debido a que no se quiere que se vuelvan a cargar 1000 posts.
   Luego se puede apreciar, que leemos el archivo .csv antes escrito.
 ```{r}
-#fb_oauth<-"CAACEdEose0cBAL1pzq5LESbKXrffZBZBwWgmQpbKQCQCpJcRp3aaj55bc37IGpTJIuYLE6urdRZAZB2nrMzpj8RWp5kBshkXoBYG2302wT7D5gNM8VnKjdd8pxPpDHby2r1By6nXcVlGKAaXd9YarP7uBIVahjQmZC89iYP6y1Eldd0V3MoRyEkeGPJNy5Is9dyfTvIazutP6041gjzmAJ9dPlLyn8OkZD"
+#fb_oauth<-"CAACEdEose0cBAL1pzfewq352q5LESbKXrffZBZBwWgmQpbKQCQCpJcRp3aaj55bc3adfare7IGpTJIuYLE6urdRZAZB2nrMzpj8RWp5kBshkXoBYG2302wT7D5gNM8VnKjdd8pby2r1By6nXcVlGKAaXd9YarP7uBIVahjQmZC89iYP6y1Eldd0V3MoRyEkeGPJNy5Is9dyfTvIazutP6041gjzmAJ9dPlLyn8OkZD"
 #feeds <- getNewsfeed(fb_oauth, n = 1000)
 #write.csv(feeds, file = "21014872_22022441_23194702_LeonardoSantella_posts.csv")
 #------Fin Autenticacion y descargar de 1000 news feeds--------

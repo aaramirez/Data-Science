@@ -28,10 +28,10 @@ library(knitr)
 
 Para la obtenion de los datos, debemos autenticarnos. Asignamos a cada variable el string correspondiente al parametro requerido por la funcion setup_twitter_oauth(...) que es la encargada de procesar la autenticacion 
 ```{r}
-api_key <- "8TduouVcjWi5YDnS2Z6SZxSnN"
-api_secret <- "1YszOPvqOohFlBxBnFf2gz3zjDVScqiGuU0JM2zhWZvGYhYau2"
-access_token <- "221541064-OmMDGnuFoYnqcVWufPfsJIucU8rwR5AC6vYi2xGB"
-access_token_secret <- "f3bXhy1r1ZHfw7wahYFKnU3R5GiIQzZ78UaXeYcqfajsp"
+api_key <- "8TduouqeVdfadfaerqcjWi5YDafadfanS2Z6SZxSnN"
+api_secret <- "1qrqtqszOPvqOasqerqohFlBxBnFf2gz3zjDVScqiGuU0JM2zhWZvGYhYaadgdykrfsdfgu2"
+access_token <- "afaew154arqaer1064-OmMaqrtqaeDGnuFoYnqcVWufPfsJIucU8rwR5AC6vYiaraqfa2xGB"
+access_token_secret <- "f3bXasdfsafahy1r1ZHfw7wahYFKnU3R5GiIQzadf2Z78UaXeYafdsa4652cqfajsp"
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 ```
 

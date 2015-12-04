@@ -13,10 +13,10 @@ library(rCharts)
 library(FactoMiner)
 
 #Colocamos en variables las credenciales proporcionadas por Twitter
-api_key <- "8TduouVcjWi5YDnS2Z6SZxSnN"
-api_secret <- "1YszOPvqOohFlBxBnFf2gz3zjDVScqiGuU0JM2zhWZvGYhYau2"
-access_token <- "221541064-OmMDGnuFoYnqcVWufPfsJIucU8rwR5AC6vYi2xGB"
-access_token_secret <- "f3bXhy1r1ZHfw7wahYFKnU3R5GiIQzZ78UaXeYcqfajsp"
+api_key <- "8TduouVcjkjasdflkaWi5YDnS2Z6SZxSnNakjflka"
+api_secret <- "1ADFaglhaYszOPvqOohFlBxBnFf2gz3zjDVScqiGuU0JM2lakdhfzhWZvGYhYau2"
+access_token <- "221541ASFA064-OmMDGnuFoakjhf6YnqcVWufPfsJIucU8rwR5AC6vYi2xGB"
+access_token_secret <- "f3bXhy1r1ZHfw7wahYFKnUlkahgflADFA3Rgas5GiIQzZ78UaXeYcqfajsp"
 #Autenticacion 
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
